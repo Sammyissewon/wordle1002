@@ -1,0 +1,45 @@
+.menu-bar {
+  margin: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-bar img {
+  width: 30px;
+  cursor: pointer;
+}
+
+.menu-bar__left img {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu-bar__title {
+  font-size: 30px;
+  margin-left: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.menu-bar__right {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.menu-bar__right-subscribe {
+  font-size: small;
+  border: 1px solid grey;
+  padding: 5px 18px 5px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}
